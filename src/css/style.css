@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.advice-app {
+    background-color: var(--dark-blue);
+    font-weight: 800;
+    min-height: 100vh;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.advice-card {
+    background-color: var(--dark-grayish-blue);
+    max-width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.advice-card .advice-id {
+    color: var(--neon-green);
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 3rem;   
+}
+
+.advice-card .advice-text, .footer {
+    color: var(--light-cyan);
+}
+
+.advice-card .advice-text {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.3rem;
+}
+
+.advice-card picture img {
+    width: 100%;
+}
+
+.advice-card .btn-advice-update {
+    background-color: var(--neon-green);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transform: translateY(85%);
+    transition: 0.3s ease-in-out;
+}
+
+.advice-card .btn-advice-update:hover {
+    box-shadow: var(--neon-green) 0px 0px 10px;
+}
+
+.footer {
+    font-weight: 400;
+}
