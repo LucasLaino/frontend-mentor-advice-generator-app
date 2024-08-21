@@ -25,14 +25,3 @@ async function getAdvice() {
     btnAdviceGenerator.addEventListener("click", getAdvice);
 
     getAdvice();
-
-
-// async function randomAdiviceGenarator() {
-//     const url= "https://api.adviceslip.com/advice"
-//     const response = await fetch(url);
-//     const json = await response.json();
-//     console.log(json);
-
-// }
-
-// randomAdiviceGenarator()
