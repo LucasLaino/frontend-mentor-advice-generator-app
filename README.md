@@ -13,8 +13,7 @@ Essa é a solução do [Advice generator app challenge on Frontend Mentor](https
   - [O Que Eu Aprendi](#o-que-eu-aprendi)
   - [Desenvolvimento Futuro](#desenvolvimento-futuro)
   - [Recursos Úteis](#recursos-uteis)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Autor](#autor)
 
 ## Visão Geral
 
